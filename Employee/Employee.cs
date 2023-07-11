@@ -6,16 +6,18 @@ public class Employee{
     private int id;
 
     private double salary;
+    private double hra;
     
 
     public Employee(){
 
     }
-    public Employee(string fName,string lName,int id,double salary){
+    public Employee(string fName,string lName,int id,double salary,double hra){
         this.firstName=fName;
         this.lastName=lName;
         this.id=id;
        this.salary=salary;
+       this.hra=hra;
        
 
     }
@@ -37,13 +39,20 @@ public class Employee{
         get{return this.salary;}
         set{this.salary=value;}
     }
-    
+    public double Hra{
+        get{return this.hra;}
+        set{this.hra=value;}
+    }
+    public virtual double ComputeSal(){
+        double sal=salary+hra;
+        return sal;
+    }
 
     public override string ToString()
     {
         string data=base.ToString();
         return data+this.firstName + " "+ this.lastName+ " "+ this.id +" "+
-               this.salary ;
+               this.salary+" "+this.hra+" "+ComputeSal() ;
     }
 
 
