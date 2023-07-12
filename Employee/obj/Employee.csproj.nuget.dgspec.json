@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ayush/Downloads/dotNetLab/Employee/Employee.csproj": {}
+    "G:\\gau\\dotNetLab\\Employee\\Employee.csproj": {}
   },
   "projects": {
-    "/Users/ayush/Downloads/dotNetLab/Employee/Employee.csproj": {
+    "G:\\gau\\dotNetLab\\Drawing\\Drawing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ayush/Downloads/dotNetLab/Employee/Employee.csproj",
-        "projectName": "Employee",
-        "projectPath": "/Users/ayush/Downloads/dotNetLab/Employee/Employee.csproj",
-        "packagesPath": "/Users/ayush/.nuget/packages/",
-        "outputPath": "/Users/ayush/Downloads/dotNetLab/Employee/obj/",
+        "projectUniqueName": "G:\\gau\\dotNetLab\\Drawing\\Drawing.csproj",
+        "projectName": "Drawing",
+        "projectPath": "G:\\gau\\dotNetLab\\Drawing\\Drawing.csproj",
+        "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
+        "outputPath": "G:\\gau\\dotNetLab\\Drawing\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/ayush/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +59,70 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\gau\\dotNetLab\\Employee\\Employee.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\gau\\dotNetLab\\Employee\\Employee.csproj",
+        "projectName": "Employee",
+        "projectPath": "G:\\gau\\dotNetLab\\Employee\\Employee.csproj",
+        "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
+        "outputPath": "G:\\gau\\dotNetLab\\Employee\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "G:\\gau\\dotNetLab\\Drawing\\Drawing.csproj": {
+                "projectPath": "G:\\gau\\dotNetLab\\Drawing\\Drawing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
